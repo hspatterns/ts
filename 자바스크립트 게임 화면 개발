@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+
+<div class="text">
+
+	자바스크립트 게임 화면 개발
+	객체 {
+		행동1
+		행동2
+		행동3
+	}
+
+	객체 안에 행동들이 있고 상황이 벌어지면 특정 행동을 하는 것으로 
+	이해할 수 있는 코드를 짤 수 있을까.
+
+	- foreach, filter, map, reduce !
+	- Object literal pattern & this & bind
+	- Clean Code
+
+</div>
+
+<script>
+
+	function game () {
+
+		this.start();
+
+	}
+
+	game.prototype = {
+		
+		start : function () {
+
+		},
+
+		progress : function () {
+
+		},
+
+		end : function () {
+
+		}
+		
+	}
+
+</script>
+
+</body>
+</html>
+
+
